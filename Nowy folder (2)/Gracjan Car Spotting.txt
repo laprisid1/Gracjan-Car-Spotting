@@ -1,0 +1,67 @@
+<html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gracjan Car Spotting</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 2em 0;
+        }
+        .car {
+            background-color: #fff;
+            padding: 1em;
+            margin-bottom: 1em;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .car img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .car h2 {
+            color: #333;
+        }
+        .car p {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gracjan Car Spotting</h1>
+    </header>
+    <div class="container">
+        <div class="car">
+            <h2>Ferrari LaFerrari</h2>
+            <img src="https://example.com/laferrari.jpg" alt="Ferrari LaFerrari">
+            <p>Ferrari LaFerrari to hybrydowy hipersamochód produkowany przez włoską firmę Ferrari. Charakteryzuje się niesamowitą mocą i oszałamiającym wyglądem.</p>
+        </div>
+        <div class="car">
+            <h2>Lamborghini Aventador</h2>
+            <img src="https://example.com/aventador.jpg" alt="Lamborghini Aventador">
+            <p>Lamborghini Aventador to ikona stylu i osiągów. Jego agresywny design i potężny silnik sprawiają, że jest jednym z najbardziej pożądanych samochodów na świecie.</p>
+        </div>
+        <div class="car">
+            <h2>Porsche 911 GT3</h2>
+            <img src="https://example.com/911gt3.jpg" alt="Porsche 911 GT3">
+            <p>Porsche 911 GT3 to sportowy samochód o wyjątkowych osiągach. Został zaprojektowany z myślą o torze wyścigowym, ale równie dobrze sprawdza się na zwykłych drogach.</p>
+        </div>
+    </div>
+</body>
+</html>
